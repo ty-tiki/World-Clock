@@ -21,42 +21,44 @@
   <body>
     <h1>World Clock</h1>
     <div class="container">
-      <select name="" id="">
+      <select name="" id="city-select">
         <option value="">Select a city...</option>
-        <option value="">London</option>
-        <option value="">Berlin</option>
-        <option value="">New York</option>
-        <option value="">Auckland</option>
+        <option value="Europe/London">London</option>
+        <option value="Europe/Berlin">Berlin</option>
+        <option value="America/New_York">New York</option>
+        <option value="Pacific/Auckland">Auckland</option>
       </select>
-      <div class="city-place-time">
-        <div>
-          <div class="city" id="london">London</div>
-          <div class="date" id="london-date"></div>
+      <div id="selected-city"></div>
+      <div id="all-cities">
+        <div class="city-place-time">
+          <div>
+            <div class="city" id="london">London</div>
+            <div class="date" id="london-date"></div>
+          </div>
+          <div class="time" id="london-time"></div>
         </div>
-        <div class="time" id="london-time"></div>
-      </div>
-      <div class="city-place-time">
-        <div>
-          <div class="city" id="berlin">Berlin</div>
-          <div class="date" id="berlin-date"></div>
+        <div class="city-place-time">
+          <div>
+            <div class="city" id="berlin">Berlin</div>
+            <div class="date" id="berlin-date"></div>
+          </div>
+          <div class="time" id="berlin-time"></div>
         </div>
-        <div class="time" id="berlin-time"></div>
-      </div>
-      <div class="city-place-time">
-        <div>
-          <div class="city" id="new-york">New York</div>
-          <div class="date" id="new-york-date"></div>
+        <div class="city-place-time">
+          <div>
+            <div class="city" id="new-york">New York</div>
+            <div class="date" id="new-york-date"></div>
+          </div>
+          <div class="time" id="new-york-time"></div>
         </div>
-        <div class="time" id="new-york-time"></div>
-      </div>
-      <div class="city-place-time">
-        <div>
-          <div class="city" id="auckland">Auckland</div>
-          <div class="date" id="auckland-date"></div>
+        <div class="city-place-time">
+          <div>
+            <div class="city" id="auckland">Auckland</div>
+            <div class="date" id="auckland-date"></div>
+          </div>
+          <div class="time" id="auckland-time"></div>
         </div>
-        <div class="time" id="auckland-time"></div>
       </div>
-    </div>
     </div>
     <footer>
       This project was coded with⌛by

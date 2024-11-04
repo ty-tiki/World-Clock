@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
     <link href="https://fonts.cdnfonts.com/css/reiswar" rel="stylesheet" />
     <link
       href="https://fonts.cdnfonts.com/css/dec-terminal-modern"
@@ -28,17 +30,31 @@
       </select>
       <div class="city-place-time">
         <div>
-          <div class="city">London</div>
-          <div class="date">October 22nd 2024</div>
+          <div class="city" id="london">London</div>
+          <div class="date" id="london-date"></div>
         </div>
-        <div class="time">11:55:12<small> AM</small></div>
+        <div class="time" id="london-time"></div>
       </div>
       <div class="city-place-time">
         <div>
-          <div class="city">Berlin</div>
-          <div class="date">October 22nd 2024</div>
+          <div class="city" id="berlin">Berlin</div>
+          <div class="date" id="berlin-date"></div>
         </div>
-        <div class="time">11:55:12<small> AM</small></div>
+        <div class="time" id="berlin-time"></div>
+      </div>
+      <div class="city-place-time">
+        <div>
+          <div class="city" id="new-york">New York</div>
+          <div class="date" id="new-york-date"></div>
+        </div>
+        <div class="time" id="new-york-time"></div>
+      </div>
+      <div class="city-place-time">
+        <div>
+          <div class="city" id="auckland">Auckland</div>
+          <div class="date" id="auckland-date"></div>
+        </div>
+        <div class="time" id="auckland-time"></div>
       </div>
     </div>
     </div>

@@ -74,6 +74,8 @@ function changeCity(event) {
           )} <small>${cityTime.format("A")}</small></div>
         </div>
         </div>
+        <br />
+        <a href ="/">Start again</a>
   `;
 }
 
